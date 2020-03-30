@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Parallax</title>
-    <link rel="stylesheet" href="svg.css">
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+        }
+
+        body div {
+            height: 100vh;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .a {
+            background-image: url('images/adult-alone-blur.jpg');
+        }
+
+        .b {
+            background-image: url('images/close-up-code.jpg');
+        }
+
+        .c {
+            background-image: url('images/coding-computer.jpg');
+        }
+
+        .d {
+            background-image: url('images/person-wearing-blue.jpg');
+        }
+    </style>
 </head>
+
 <body>
     <div class="a"></div>
     <div class="b"></div>
+    <div>
+        <p>PAragraph tag</p>
+    </div>
     <div class="c"></div>
     <div class="d"></div>
 </body>
+
 </html>
